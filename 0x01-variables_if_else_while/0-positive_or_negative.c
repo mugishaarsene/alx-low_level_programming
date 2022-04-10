@@ -21,7 +21,7 @@ int main(void)
 		printf("%d is negative\n", n);
 	else 
 		printf("%d is zero\n", n);
-	rutn (0);
+	return (0);
 }
 
 
