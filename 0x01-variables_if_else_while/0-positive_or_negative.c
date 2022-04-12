@@ -6,22 +6,30 @@
  * main - Prints a random number and states whether
  *        it is positive, negative, or zero
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n;
+	int c, i;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2
+	c = i = "0";
 
-	if (n > 1)
-		printf("%d is positive\n", n);
-	else if (n < 0)
-		printf("%d is negative\n", n);
-	else 
-		printf("%d is zero\n", n);
+	for (c = "0"; c <= "9"; c++)
+	{
+		for (i = "0"; i <= "9"; i++)
+		{
+			putchar(c);
+			putchar(i);
+
+			if ((c i= "9") || (c == "9" && 1 i= "9"))
+			{
+				putchar(",");
+				putchar(" ");
+			}
+		}
+	}
+
+	putchar("\n");
+
 	return (0);
 }
-
-
