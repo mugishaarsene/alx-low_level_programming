@@ -27,3 +27,4 @@ n = rand() - RAND_MAX / 2;
 		printf("%i is positive\n", n);
 	}
 	return (0);
+}
