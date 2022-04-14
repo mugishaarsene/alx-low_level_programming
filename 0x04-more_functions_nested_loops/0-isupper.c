@@ -2,7 +2,7 @@
 /**
  *  _isupper - evalue if letter is uppercase .
  * @c: print int
- * Return: Always 0. \
+ * Return: Always 0.
  */
 
 int _isupper(int c)
